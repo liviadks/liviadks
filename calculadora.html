@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="calculadora.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algoritmo 41</title>
+</head>
+<body style="text-align: center;">
+  <div class="black-stripe"></div>
+   <img class="oricaraio" src="oricaraio.gif" alt=""> 
+    <h1>Passeio de Balão &#x1F388</h1>
+    <button id="voltar" onclick="inicio()">Voltar</button><br><br>
+    <div class="seila">
+    <form id="calcular">
+        <label>Número de pessoas: <br><br>
+            <input type="number" placeholder="       (Até 4)" id="numeroPessoas" required>
+          </label>
+          <br><br>
+          <label>Tempo de passeio: <br><br>
+            <input type="number" placeholder="  (Em minutos)" id="tempoPasseio" required>
+          </label>
+          <br><br>
+          <button type="submit">Calcular</button>
+    </form>
+</div>
+
+    <h2 id="resultado"></h2>
+    <br><br><br>
+  <img id="imagem" src="print.png" alt="print">
+  
+  <script src="script.js"></script>
+  <script>
+    function inicio(){
+    window.location.href = "index.html"
+    }
+  </script>
+</body>
+</html>
