@@ -14,7 +14,7 @@ body{
 }
 .oricaraio{
     transform: translateX(-50%);
-    width: 650px;
+    width: 500px;
     position: absolute;
     left: 50%;
     bottom: 0;
