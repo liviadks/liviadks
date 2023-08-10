@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rowdies:wght@300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="javascript.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Visualg</title>
+    <button onclick="inicio()">Voltar</button><br><br>
+
+</head>
+<body style="text-align: center;">
+    <h1>JavaScript</h1>
+    
+        <pre>
+            <code>
+  document.getElementById('calcular').addEventListener('submit', function(event) {
+  event.preventDefault();
+                    
+  var numeroPessoas = parseInt(document.getElementById('numeroPessoas').value);
+  var tempoPasseio = parseInt(document.getElementById('tempoPasseio').value);
+                    
+  var valorGas = (tempoPasseio / 5) * 10 * 15;
+  var valorTaxa = numeroPessoas * 20;
+  var valorTotal = valorGas + valorTaxa;
+                    
+  document.getElementById('resultado').textContent = 'O valor total é de R$' + valorTotal.toFixed(2);
+  });
+                         
+            </code>
+          </pre>
+
+</div>
+</body>
+</html>
+<script>
+    function inicio(){
+    window.location.href = "index.html"
+    }
+  </script>

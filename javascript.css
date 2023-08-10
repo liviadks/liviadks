@@ -1,0 +1,71 @@
+body{
+    background-color: #040205;
+    background: url('ori.gif') center/cover no-repeat;
+    background-repeat: no-repeat;
+    height: 100vh;
+    margin: 0;
+  
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px); 
+}
+
+button{
+    animation: glow 0.5s ease-in-out infinite alternate;
+  
+    -webkit-box-shadow: 2px 5px 16px 0px #0B325E, 0px 0px 26px -1px rgba(255,255,255,0.66); 
+  box-shadow: 2px 5px 16px 0px #0B325E, 0px 0px 26px -1px rgba(255,255,255,0.66);
+      color: rgb(4, 2, 32);
+      background-image: linear-gradient(to bottom, rgb(226, 250, 249), rgb(157, 194, 224), rgb(164, 156, 243));    
+      border-radius: 4px;
+      width: auto;
+  display:inline-block;
+  font-weight: bold;
+  cursor:pointer;
+  font-family:Bradley hand, cursive;
+  border: 0;
+  
+  font-size:15px;
+  padding:6px 10px;
+  text-decoration:none;
+  position: absolute;
+      top: 2%;
+      left: 2%;
+    }
+
+    code{
+        color: rgb(199, 229, 255);
+        background-color: rgb(24, 31, 68);
+        transform: translate(-50%, -2%);
+        width: 730px;
+        position: absolute;
+        left: 50%;
+        bottom: -10;
+        border-radius: 15px;
+       text-align: left;
+    
+      }
+
+      h1{
+        font-size: 2rem;
+        font-family: MONO;
+        color: #f6fffd;
+        
+        position: relative;
+        animation: glow 1.5s ease-in-out infinite alternate;
+      }
+      @keyframes glow {
+        0% {
+          text-shadow: 0 0 10px rgba(150, 251, 255, 0.7),
+                       0 0 20px rgba(188, 242, 255, 0.7),
+                       0 0 30px rgba(255, 255, 255, 0.7);
+        }
+        100% {
+          text-shadow: 0 0 20px rgba(175, 239, 255, 0.9),
+                       0 0 40px rgba(255, 255, 255, 0.9),
+                       0 0 60px rgba(255, 255, 255, 0.9);
+        }
+      }
